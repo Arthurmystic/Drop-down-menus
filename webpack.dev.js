@@ -6,10 +6,10 @@ module.exports = merge(common, {
 
   devtool: "eval-source-map",
   devServer: {
-    watchFiles: ["./src/index.html"], // UPDATE THIS
+    watchFiles: ["./src/drop-down-menus.html"], // UPDATE THIS
   },
 
-  // USE THIS AND COMMENT OUT ABOVE IF THOROUGH (BUT SLOWER) DEBUGGING IS PREF
+  // USE THIS AND COMMENT OUT ABOVE IF THOROUGH (BUT SLOWER) DEBUGGING IS PREFERED
   // Use this and comment out above if thorough (but slower) debugging is prefered
   // to faster and live editing
 

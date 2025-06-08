@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-// const { entry } = require("./webpack.dev");
 
 module.exports = {
   entry: {
@@ -15,8 +14,8 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html", // UPDATE THIS IF HAVE AN HTML to the html file name
-      // title: 'production',  //OR Use this if u want webpack to generate a dynakic htmlfromm scratch
+      template: "./src/drop-down-menus.html", // UPDATE THIS IF HAVE AN HTML to the html file name
+      // title: 'production',  //OR Use this if u want webpack to generate a dynamic html from scratch
     }),
   ],
 
