@@ -1,15 +1,9 @@
 // index.js
 import "./styles.css";
 
-const pdts = document.querySelector("#products");
-const contact = document.querySelector("#contactus");
-const policies = document.querySelector("#policies");
-const aboutus = document.querySelector("#aboutus");
+const menus = document.querySelectorAll(".menu");
 
-showHideItems(pdts);
-showHideItems(contact);
-showHideItems(policies);
-showHideItems(aboutus);
+[...menus].forEach((menuItem) => showHideItems(menuItem));
 
 function showHideItems(parent) {
   const child = parent.firstElementChild;
